@@ -31,7 +31,7 @@ Add the library to pubspec.yaml:
 dependencies:
   flutter_bloc_devtools:
     git:
-      url: https://github.com/chonghorizons/flutter_bloc_devtools.git
+      url: https://github.com/haudang-agilityio/flutter_bloc_devtools.git
       ref: main
 ```
 
