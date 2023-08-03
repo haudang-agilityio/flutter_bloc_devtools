@@ -7,7 +7,7 @@ environment:
   sdk: '>=2.0.0 <3.0.0'
   
 dependencies:
-  bloc: ^8.0.0
+  bloc: ^8.1.2
   socketcluster_client: ^0.3.0
 
 dev_dependencies:
