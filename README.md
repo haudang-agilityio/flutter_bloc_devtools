@@ -1,17 +1,16 @@
 # Remote Devtools for flutter_bloc
 
 ## Progress
-Fork of https://github.com/andrea689/flutter_bloc_devtools, and custom support safety for v8.0.0.
+Fork of https://github.com/andrea689/flutter_bloc_devtools, and custom support null safety and cubit for latest versions of [bloc](https://pub.dev/packages/bloc)
 
-This currently has rudimentary support for v8.0.0. It is a work in progress.
-
+Because the flutter_bloc_devtools package not support null safety.
 
 
 ## Original docs
 
 Remote Devtools support for Blocs of [flutter_bloc](https://github.com/felangel/bloc/tree/master/packages/flutter_bloc).
 
-N.B. `Cubit` is *now* supported
+Note: `Cubit` is supported
 
 ![Devtools Demo](https://github.com/andrea689/flutter_bloc_devtools/raw/main/demo.gif)
 
@@ -80,4 +79,3 @@ Run your application. It will connect to the remotedev server. You can now debug
 ## Examples
 
 - [Counter](example/counter)
-
