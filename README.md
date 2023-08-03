@@ -34,10 +34,10 @@ Add `RemoteDevToolsObserver` to your `Bloc.observer`:
 
 ```dart
 void main() async {
-  BlocOverrides.runZoned(
-        () async => runApp(const CounterApp()),
-    blocObserver: RemoteDevToolsObserver('127.0.0.1:8000'),
-  );
+  final observer = RemoteDevToolsObserver('127.0.0.1:8000');
+  await observer.connect();
+  Bloc.observer = observer;
+  runApp(const App());
 }
 ```
 
@@ -78,4 +78,4 @@ Run your application. It will connect to the remotedev server. You can now debug
 
 ## Examples
 
-- [Counter](example/counter)
+- [Counter App](example/counter_app)
