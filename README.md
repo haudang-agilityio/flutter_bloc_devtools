@@ -1,7 +1,8 @@
 # Remote Devtools for flutter_bloc
 
 ## Progress
-Fork of https://github.com/andrea689/flutter_bloc_devtools, and support bloc v8.0.0
+Fork of https://github.com/andrea689/flutter_bloc_devtools, and custom support safety for v8.0.0.
+
 This currently has rudimentary support for v8.0.0. It is a work in progress.
 
 
